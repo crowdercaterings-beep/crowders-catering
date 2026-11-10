@@ -1223,3 +1223,4 @@ export default function App() {
     </div>
   );
 }
+window.ReactDOM?.createRoot(document.getElementById('root'))?.render(React.createElement(CrowdersCateringApp || App));
